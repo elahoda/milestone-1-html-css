@@ -16,13 +16,14 @@ header {
     background: url('../img/hero-image.png');
     background-size: cover;
     margin: 0px auto;
-    padding: 25px auto;
+    padding: 25px;
 }
 
 nav {
     float: right;
     padding: 25px 25px;
 }
+
 nav ul li {
     display: inline-block;
 }
@@ -35,83 +36,82 @@ nav ul li a {
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Roboto Slab', serif;
-
+    font-family: 'Roboto Slab', serif;
 }
 
 h1 {
-  font-size: 60px;
-  text-align: center;
-  color: #bdbf09;
+    font-size: 60px;
+    text-align: center;
+    color: #bdbf09;
 }
+
 h2 {
-  fon-size: 48px;
-  text-align: center;
+    font-size: 48px;
+    text-align: center;
 }
 
 h3 {
-  font-size: 36px;
-  text-align: center;
+    font-size: 36px;
+    text-align: center;
 }
 
 h4 {
-  font-size: 24px;
-  text-align: center;
+    font-size: 24px;
+    text-align: center;
 }
 
 
 /** Grid **/
 
 .full-width {
-  width: 1200px;
-  margin: 0 auto;
-  padding-top: 25px;
-  float: none;
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 25px;
+    float: none;
 
 }
 
 .half-width {
-  width: 600px;
-  height: 350px;
-  margin: 25px 0 25px 0;
-  float: left;
-}
+    width: 600px;
+    height: 350px;
+    margin: 25px 0 25px 0;
+    float: left;
+  }
 
 .third-width {
-  width: 400px;
-  margin: 0 auto;
-  float: left;
+    width: 400px;
+    margin: 0 auto;
+    float: left;
 }
 
 /** Portfolio **/
 #portfolio {
-  height: 1450px;
-
+    height: 1450px;
 }
 
 #holstee img {
-  padding-left: 95px;
+    padding-left: 95px;
 }
 
 /** About **/
 #about {
-  height: 650px;
-  padding-top: 25px;
-  background-color: #087e8b;
-  color: white;
+    height: 650px;
+    padding-top: 25px;
+    background-color: #087e8b;
+    color: white;
 }
 
 
 /** Contact **/
 #contact {
-  height: 650px;
-  padding-top: 25px;
-  background-color: #095156;
-  color: white;
+    height: 650px;
+    padding-top: 25px;
+    background-color: #095156;
+    color: white;
 }
 #contact p {
-  text-align: center;
-  line-height: .5;
+    text-align: center;
+    line-height: .5;
 }
 
 #contact ul li {
@@ -121,19 +121,19 @@ h4 {
 }
 
 #contact a {
-  text-decoration: none;
-  text-align: center;
-  color: white;
+    text-decoration: none;
+    text-align: center;
+    color: white;
 }
 
 
 /** footer **/
 
 footer {
-  background-color: #095156;
-  color: white;
-  height: 900px;
-  text-align: center;
-  padding-top: 25px;
+    background-color: #095156;
+    color: white;
+    height: 900px;
+    text-align: center;
+    padding-top: 25px;
 
 }
